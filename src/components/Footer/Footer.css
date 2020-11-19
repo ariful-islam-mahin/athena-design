@@ -1,0 +1,27 @@
+.logo{
+    width: 125px;
+}
+
+.social-icon a img{
+    width: 20px;
+    margin: 0px 10px;
+}
+
+.link-text a, .contact p{
+    color: #626363;
+    font-size: 17px;
+}
+
+.link-text a:hover{
+    color: #505050;
+    text-decoration: none;
+}
+
+.contact h1{
+    color: #0d052e;
+}
+
+.contact-input{
+    max-width: 600px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
