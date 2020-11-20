@@ -23,12 +23,14 @@ const teamItem = [
 ]
 const Team = () => {
     return (
-        <section className="text-center contact container pt-5">
-            <h1 className="header">Choose Your Dedicated Team</h1>
-            <div className="row py-5">
-                {
-                    teamItem.map((item, idx) => <TeamItem key={idx} team={item}/>)
-                }
+        <section className="text-center team pt-5">
+            <div className="container ">
+                <h1 className="header">Choose Your Dedicated Team</h1>
+                <div className="row py-5">
+                    {
+                        teamItem.map((item, idx) => <TeamItem key={idx} team={item}/>)
+                    }
+                </div>
             </div>
         </section>
     );
