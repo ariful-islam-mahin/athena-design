@@ -13,8 +13,8 @@
 }
 .banner-text-header{
     color: #0D052E !important;
-    font-size:75px;
-    font-weight: regular ;
+    font-size:70px;
+    font-family: 'Yeseva One', cursive;
 }
 .banner-text{
     font-family: 'Roboto', sans-serif;
@@ -35,15 +35,14 @@
     border: none;
     margin-top:18px;
 }
-.banner-btn:hover{
+/* .banner-btn:hover{
     background-image: linear-gradient(to right, #fff , #fff);
-    
     color:  #0AB3E1 !important;
     border-top: 2px solid #1DD9B7;
     border-bottom: 2px solid #0AB3E1;
     border-left: 2px solid #1DD9B7;
     border-right:2px solid #0AB3E1;
-}
+} */
 @media only screen and (max-width: 600px){
     .banner-text-header{
         font-size: 36px !important;
