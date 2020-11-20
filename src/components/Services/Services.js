@@ -1,5 +1,5 @@
 import React from "react";
-import "./what.css";
+import "./services.css";
 import experience from "../../images/Group 65@2x.png";
 import Interface from "../../images/Group 66@2x.png";
 import Prototyping from "../../images/Group 69@2x.png";
@@ -8,7 +8,7 @@ import bg from "../../images/bgString (1).png";
 
 const What = () => {
   return (
-    <div style={{ backgroundColor: "#FAFFFD" }} className="pt-5 pb-5  ">
+    <div style={{ backgroundColor: "#FAFFFD" }} className="pt-5 pb-5 ">
       <div className="bg-string">
         <div className="pt-5" style={{ textAlign: "center" }}>
           <h1 className="what" style={{ fontFamily: "Yeseva One" }}>

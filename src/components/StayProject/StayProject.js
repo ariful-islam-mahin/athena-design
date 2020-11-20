@@ -2,7 +2,7 @@ import React from "react";
 import img20 from "../../images/20 [Converted]@2x.png";
 const StayProject = () => {
   return (
-    <div className=" Project pt-2 pl-5 pr-5 pb-5">
+    <div className=" Project pt-2 px-5 mx-auto pb-5">
       <div className="row  d-flex align-items-center">
         <div className="col-md-6 img16 pl-5">
           <img
@@ -31,7 +31,7 @@ const StayProject = () => {
             <span> of letter.</span>
           </p>
           <div className="pt-3">
-            <button className="button-us button-see" href="">
+            <button className="radius-btn gradient-btn" href="">
               Contact us
             </button>
           </div>
