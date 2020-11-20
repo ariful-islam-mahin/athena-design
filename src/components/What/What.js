@@ -72,4 +72,6 @@ const What = () => {
   );
 };
 
+//hover section in the what.css file
+
 export default What;
