@@ -23,7 +23,7 @@ const teamItem = [
 ]
 const Team = () => {
     return (
-        <section className="text-center contact container pt-5">
+        <section className="text-center contact container pt-5 mt-5">
             <h1 className="header">Choose Your Dedicated Team</h1>
             <div className="row py-5">
                 {

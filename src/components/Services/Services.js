@@ -8,61 +8,68 @@ import bg from "../../images/bgString (1).png";
 
 const What = () => {
   return (
-    <div style={{ backgroundColor: "#FAFFFD" }} className="pt-5 pb-5 ">
+    <div style={{ backgroundColor: "#FAFFFD" }} className="pt-5 container pb-5 mb-5">
       <div className="bg-string">
-        <div className="pt-5" style={{ textAlign: "center" }}>
+        <div className="pt-5 pb-4" style={{ textAlign: "center" }}>
           <h1 className="what" style={{ fontFamily: "Yeseva One" }}>
             What we do
           </h1>
           <p className="what-focus">
-            Our main focus is to make the User Experience very{" "}
-            <span> simple and easy.Simplicity is our Strength.</span>
+            <small>Our main focus is to make the User Experience very <br/> simple and easy.Simplicity is our Strength.</small>
           </p>
         </div>
-        <div className="pl-5 pr-5 pt-2">
+        <div className="pt-2">
           <div className=" row pt-5">
-            <div className="col-md-3 text-center hover  p-5 box">
-              <img src={experience} alt="" />
-              <div className="pt-3">
-                <h4>Experience Design</h4>
-                <p className="desing">
-                  The point of using Lorem{" "}
-                  <span>ispum is that it has a more-or-</span>{" "}
-                  <span>less normal</span>
-                </p>
+            <div className="col-md-3 text-center hover   box">
+              <div className="serviceItem px-4 py-5">
+                <img className="services-img" src={experience} alt="" />
+                <div className="pt-3">
+                  <h5>Experience Design</h5>
+                  <small className="desing">
+                    The point of using Lorem{" "}
+                    <span>ispum is that it has a more-or-</span>{" "}
+                    <span>less normal</span>
+                  </small>
+                </div>
               </div>
             </div>
-            <div className="col-md-3 text-center hover  p-5 box">
-              <img src={Interface} alt="" />
-              <div className="pt-3">
-                <h4>Interface Desing</h4>
-                <p className="desing">
-                  The point of using Lorem{" "}
-                  <span>ispum is that it has a more-or-</span>{" "}
-                  <span>less normal</span>
-                </p>
+            <div className="col-md-3 text-center hover   box">
+              <div className="serviceItem px-4 py-5">
+                <img className="services-img" src={Interface} alt="" />
+                <div className="pt-3">
+                  <h5>Interface Desing</h5>
+                  <small className="desing">
+                    The point of using Lorem{" "}
+                    <span>ispum is that it has a more-or-</span>{" "}
+                    <span>less normal</span>
+                  </small>
+                </div>
               </div>
             </div>
-            <div className="col-md-3 text-center hover p-5 box">
-              <img src={Prototyping} alt="" />
-              <div className="pt-3">
-                <h4>Prototyping</h4>
-                <p className="desing">
-                  The point of using Lorem{" "}
-                  <span>ispum is that it has a more-or-</span>{" "}
-                  <span>less normal</span>
-                </p>
+            <div className="col-md-3 text-center hover  box">
+              <div className="serviceItem px-4 py-5">
+                <img className="services-img" src={Prototyping} alt="" />
+                <div className="pt-3">
+                  <h5>Prototyping</h5>
+                  <small className="desing">
+                    The point of using Lorem{" "}
+                    <span>ispum is that it has a more-or-</span>{" "}
+                    <span>less normal</span>
+                  </small>
+                </div>
               </div>
             </div>
-            <div className="col-md-3 text-center hover  p-5 box">
-              <img src={illustration} alt="" />
-              <div className="pt-3">
-                <h4>Illustration</h4>
-                <p className="desing">
-                  The point of using Lorem{" "}
-                  <span>ispum is that it has a more-or-</span>{" "}
-                  <span>less normal</span>
-                </p>
+            <div className="col-md-3 text-center hover   box">
+              <div className="serviceItem px-4 py-5">
+                <img className="services-img" src={illustration} alt="" />
+                <div className="pt-3">
+                  <h5>Illustration</h5>
+                  <small className="desing">
+                    The point of using Lorem{" "}
+                    <span>ispum is that it has a more-or-</span>{" "}
+                    <span>less normal</span>
+                  </small>
+                </div>
               </div>
             </div>
           </div>
